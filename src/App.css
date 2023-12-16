@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;900&display=swap');
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+ }
+
+ .fore-note-con {
+    font-size: 1.5rem;
+ }
+ .nav-con {
+    display: flex;
+    justify-content: space-between;
+ }
+ .nav-con {
+    margin: 1rem 0 3rem ;
+ }
+ .nav-con > h1 {
+    font-size: 2rem;
+    margin: 0;
+ }
+ .nav-con > div {
+    border: none;
+    display: block;
+    background-color: orange;
+    color: white;
+    padding: 1rem 1rem;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: 800;
+ }
+ .nav-con > div > p {
+   margin: 0;
+ }
+.empty-notes {
+   font-size: 2rem;
+   color: blue;
+   margin-top: 2rem;
+   font-weight: 700;
+}
+ .add-note-con > button {
+    border: none;
+    background-color: blue;
+    padding: 10px 1rem;
+    font-size: 1rem;
+    font-weight: 800;
+    border-radius: 1rem;
+    color: white;
+    cursor: pointer;
+    margin-left: 1rem;
+ }
+ .add-note-con > input {
+    width: 50%;
+    padding: 10px 1.3rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.1rem;
+ }
+ .add-note-con > input:focus {
+    outline: none;
+ }
+ .secton-container {
+    max-width: 700px;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+ }
+ .app-con {
+    background-color: aquamarine;
+    padding:  2rem;
+    border-radius: 10px;
+    margin-top: 5rem;
+ }
+ .item-con {
+    margin-top: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .item-con > h3 {
+    margin: 0;
+    text-align: start;
+    color: rgb(90, 84, 84);
+ }
+ .loading-data {
+   font-size: 2rem;
+   font-weight: 700;
+   margin-top: 3rem;
+ }
+ .error {
+   color: red;
+ }
+ .minus {
+   font-size: 1.5rem;
+   cursor: pointer;
+ }
+ .intro {
+   color: orange;
+ }
+ .intro > h2 {
+   font-size: 2rem;
+ }
